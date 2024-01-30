@@ -79,7 +79,7 @@ ul li {
 
 ul li img {
     width: 30px;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 ul li p {
@@ -111,4 +111,8 @@ ul li p {
 
 .side-nav:hover ul li p {
     display: block;
+}
+
+.side-nav:hover ul li img {
+    margin-right: 10px;
 }
