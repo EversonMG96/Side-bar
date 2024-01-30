@@ -42,6 +42,10 @@
     overflow: hidden;
 }
 
+.user div {
+    display: none;
+}
+
 .user h2 {
     font-size: 15px;
     font-weight: 600;
@@ -56,6 +60,7 @@
 
 .star-img {
     width: 20px;
+    display: none;
 }
 
 ul {
@@ -67,7 +72,7 @@ ul li {
     margin: 30px 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     cursor: pointer;
 }
 
@@ -78,4 +83,5 @@ ul li img {
 
 ul li p {
     white-space: nowrap;
+    display: none;
 }
