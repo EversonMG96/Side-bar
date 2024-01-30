@@ -108,3 +108,7 @@ ul li p {
 .side-nav:hover .user-img {
     margin: 0;
 }
+
+.side-nav:hover ul li p {
+    display: block;
+}
