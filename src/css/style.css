@@ -90,3 +90,7 @@ ul li p {
 .side-nav:hover {
     width: 250px;
 }
+
+.side-nav:hover .user div {
+    display: block;
+}
