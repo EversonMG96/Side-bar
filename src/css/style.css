@@ -53,3 +53,8 @@
 .star-img {
     width: 20px;
 }
+
+ul {
+    list-style: none;
+    padding: 0 15px;
+}
