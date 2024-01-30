@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    transition: width 0.5s;
 }
 
 .user {
@@ -84,4 +85,8 @@ ul li img {
 ul li p {
     white-space: nowrap;
     display: none;
+}
+
+.side-nav:hover {
+    width: 250px;
 }
