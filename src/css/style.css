@@ -94,3 +94,9 @@ ul li p {
 .side-nav:hover .user div {
     display: block;
 }
+
+.side-nav:hover .user {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
