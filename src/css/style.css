@@ -104,3 +104,7 @@ ul li p {
 .side-nav:hover .star-img {
     display: block;
 }
+
+.side-nav:hover .user-img {
+    margin: 0;
+}
