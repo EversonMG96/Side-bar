@@ -116,3 +116,7 @@ ul li p {
 .side-nav:hover ul li img {
     margin-right: 10px;
 }
+
+.side-nav:hover ul li {
+    justify-content: flex-start;
+}
